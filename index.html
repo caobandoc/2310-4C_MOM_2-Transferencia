@@ -4,14 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&display=swap" rel="stylesheet">
   <title>2310-4C_MOM_2-Transferencia</title>
+  <link rel="stylesheet" href="assert/config/normalize.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <a href="./example/example.html">
-    Pagina example
-  </a>
+  <header class="header">
+    <div class="nav">
+      <div class="nav__home">
+        <div class="nav__home__busqueda">
+          <img class="nav__home__busqueda__img" src="assert/svg/linkedln.svg" alt="linkedln">
+          <div class="nav__home__busqueda__form">
+            <input class="nav__home__busqueda__input" type="text" placeholder="Buscar">
+          </div>
+        </div>
+
+        <div class="nav__home__redirect">
+          <ul class="nav__home__redirect__links">
+            <li class="nav__home__redirect__link">
+              <a href="#"><img src="assert/svg/home.svg"></a>
+            </li>
+            <li class="nav__home__redirect__link">
+              <a href="#"><img src="assert/svg/briefcase.svg"></a>
+            </li>
+            <li class="nav__home__redirect__link">
+              <a href="#"><img src="assert/svg/message.svg"></a>
+            </li>
+            <li class="nav__home__redirect__link">
+              <a href="#"><img src="assert/svg/world.svg"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="perfil">
+    <div class="perfil__container">
+      <div class="perfil__container__grid">
+        <div class="perfil__container__encabezado">
+          <!-- Imagen de encabezado -->
+        </div>
+        <div class="perfil__container__informacion">
+          <!-- Informacion importante -->
+          <h1>Sofia Montero castiblanco</h1>
+          <h4>Tecnologa en desarrollo de software</h4>
+          <p>Backend | Frontend | C# | JavaScript | PHP | HTML | CSS
+          <span>Bogotá, Distrito Capital, Colombia</span>  
+          </p>
+          <a href="#"><img src="assert/svg/descargar.svg">Descargar CV</a>
+        </div>
+        <div class="perfil__container__contacto">
+          <!-- Informacion de contacto -->
+          <div class="perfil__container__contacto__redes">
+            <h2>Red De Contacto</h2>
+            <div class="perfil__container__contacto__info">
+              <a href="#"><img src="assert/svg/github.svg"></a>
+              <a href="#"><img src="assert/svg/whatsapp.svg"></a>
+              <a href="#"><img src="assert/svg/gmail.svg"></a>  
+            </div>
+            <p>
+              "El código no siempre funciona a la primera, pero cada error es una oportunidad para aprender, mejorar y llegar más cerca de la solución perfecta."
+            </p>
+          </div>
+        </div>
+        <div class="perfil__container__imagen">
+          <!-- Imagen de perfil -->
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>

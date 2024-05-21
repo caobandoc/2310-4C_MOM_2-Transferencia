@@ -1,3 +1,191 @@
 body {
-  background-color: aqua;
+  background-color: #f5f3f0;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: #FFF;
+}
+
+.nav{
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.nav__home{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  height: 100%;
+}
+
+.nav__home__busqueda{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__home__busqueda__form{
+  position: relative;
+  background-color: #edf3f7;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__home__busqueda__form::before{
+  content: '';
+  position: absolute;
+  left: 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('assert/svg/busqueda.svg');
+  background-size: contain;
+}
+
+.nav__home__busqueda__input{
+  all: unset;
+}
+
+.nav__home__redirect{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav__home__redirect__links{
+  padding-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav__home__redirect__link{
+  all: unset;
+}
+
+.nav__home__redirect__link img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.perfil{
+  width: 100%;
+  height: 100vh;
+}
+
+.perfil__container{
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.perfil__container__grid{
+  max-height: 800px;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  border-radius: 20px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  overflow: hidden;
+}
+
+.perfil__container__imagen{
+  position:absolute;
+  left: 50px;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  background-image: url('assert/img/sofia.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.perfil__container__encabezado{
+  background-image: url('assert/img/banner.jpg');
+  background-size: cover;
+  grid-column: 1/6;
+  grid-row: 1/6;
+}
+
+.perfil__container__informacion{
+  padding: 80px 50px;
+  grid-column: 1/4;
+  grid-row: 6/11;
+}
+
+.perfil__container__informacion h4{
+  font-weight: 100;
+}
+
+.perfil__container__informacion p{
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.perfil__container__informacion p span{
+  display: block;
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
+.perfil__container__informacion a{
+  display: flex;
+  align-items: center;
+}
+
+.perfil__container__contacto{
+  grid-column: 4/6;
+  grid-row: 6/11;
+}
+
+.perfil__container__contacto__redes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+}
+
+.perfil__container__contacto__redes h2{
+  margin: 10px;
+}
+
+.perfil__container__contacto__redes p{
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.perfil__container__contacto__info{
+  display: flex;
+  gap: 30px;
 }
