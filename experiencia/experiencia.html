@@ -1,15 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Experiencia</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../assert/config/normalize.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <header>
+    <div class="nav">
+      <div class="nav__home">
+        <div class="nav__home__busqueda">
+          <img class="nav__home__busqueda__img" src="../assert/svg/linkedln.svg" alt="linkedln">
+          <div class="nav__home__busqueda__form">
+            <input class="nav__home__busqueda__input" type="text" placeholder="Buscar">
+          </div>
+        </div>
 
+        <div class="nav__home__redirect">
+          <ul class="nav__home__redirect__links">
+            <li class="nav__home__redirect__link">
+              <a href="../index.html"><img src="../assert/svg/home.svg" alt="home"></a>
+            </li>
+            <li class="nav__home__redirect__link active">
+              <a href="#"><img src="../assert/svg/briefcase.svg" alt="briefcase"></a>
+            </li>
+            <li class="nav__home__redirect__link">
+              <a href="../contacto/contacto.html"><img src="../assert/svg/message.svg" alt="message"></a>
+            </li>
+            <li class="nav__home__redirect__link">
+              <a href="#"><img src="../assert/svg/world.svg" alt="world"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="experiencia">
+      <h1>Experiencia</h1>
+      <div class="experiencia__container start">
+        <img src="../assert/img/avia_tecnologia_logo.jpg" alt="avia">
+        <div>
+          <p class="text__principal title">Desarrollador de software</p>
+          <p class="text__principal">Avia Tecnología · Jornada completa</p>
+          <p class="text__secondary">mar. 2023 - actualidad · 1 año 3 meses</p>
+          <p class="text__secondary">Bogotá, Distrito Capital, Colombia · Presencial</p>
+        </div>
+      </div>
+      <div class="experiencia__container end">
+        <img src="../assert/svg/empty_image.svg" alt="empty">
+        <div>
+          <p class="text__principal title">Desarradora de software junior</p>
+          <p class="text__principal">Bermudas sas</p>
+          <p class="text__secondary">oct. 2021 - may. 2024 · 2 años 8 meses</p>
+          <p class="text__secondary">Colombia · Híbrido</p>
+          <p class="text__description">desarrollo de software junior, con experiencia en todos los procesos de software.
+          </p>
+          <p class="description">
+            <img src="../assert/svg/diamond.svg" alt="diamond">
+            Python, Análisis de requisitos y 3 aptitudes más
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
