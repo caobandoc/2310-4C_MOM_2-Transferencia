@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     background-color: #ebeaea;
     font-family: Arial, sans-serif;
@@ -63,7 +64,7 @@ img {
     margin: 90%;
     width: 10px;
     height: 100px;
-
+   
 }
 
 .buttons {
@@ -91,7 +92,7 @@ img {
 
 .tab {
     margin-bottom: 20px;
-
+    
 }
 
 .perfiles {
