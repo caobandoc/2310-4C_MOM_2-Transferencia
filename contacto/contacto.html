@@ -9,7 +9,149 @@
 </head>
 
 <body>
+  <div>
+    <header>
+      <div class="nav">
+        <div class="nav__home">
+          <div class="nav__home__busqueda">
+            <img class="nav__home__busqueda__img" src="../assert/svg/linkedln.svg" alt="linkedln">
+            <div class="nav__home__busqueda__form">
+              <input class="nav__home__busqueda__input" type="text" placeholder="Buscar">
+            </div>
+          </div>
+          <div class="nav__home__redirect">
+            <ul class="nav__home__redirect__links">
+              <li class="nav__home__redirect__link">
+                <a href="../index.html"><img src="../assert/svg/home.svg" alt="home"></a>
+              </li>
+              <li class="nav__home__redirect__link active">
+                <a href="#"><img src="../assert/svg/briefcase.svg" alt="briefcase"></a>
+              </li>
+              <li class="nav__home__redirect__link">
+                <a href="../contacto/contacto.html"><img src="../assert/svg/message.svg" alt="message"></a>
+              </li>
+              <li class="nav__home__redirect__link">
+                <a href="#"><img src="../assert/svg/world.svg" alt="world"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="seccion">
+        <div class="container">
+          <div class="seccion2">
+            <h2>CONTACTOS</h2>
+          </div>
+          <div class="buttons">
+            <hr>
+            <button class="tab-button" onclick="showLaboral()">Laboral</button>
+            <button class="tab-button" onclick="showPersonal()">Personal</button>
+            <hr>
+          </div>
+          <!-- seccion laboral -->
+          <div id="seccion_laboral">
 
+            <div class="perfiles">
+              <img
+                src="https://media.licdn.com/dms/image/D4E35AQEx9IuNgk9KIQ/profile-framedphoto-shrink_200_200/0/1716408834830?e=1717376400&v=beta&t=dVqWWr4Fx_7hAY_YDpV7qiEPOZtOqta4LjOM3sdyBCQ"
+                alt="Tatiana Coronel">
+              <div class="perfiles-info">
+                <p><strong>Tatiana Coronel</strong></p>
+                <p><strong>Especialidad: </strong> Reclutamiento & Selección | Tecnología | Analista de selección TI en
+                  CSTI CORP</p>
+                <p>5 publicaciones esta semana</p>
+              </div>
+              <a class="boton_perfiles" href="https://www.linkedin.com/in/tatiana-coronel-3b72241a2/"><button
+                  class="boton_perfiles">Perfil</button></a>
+
+
+            </div>
+            <hr>
+            <div class="perfiles">
+              <img
+                src="https://media.licdn.com/dms/image/D4D16AQH49xweaOhRKQ/profile-displaybackgroundimage-shrink_350_1400/0/1689385113091?e=1722470400&v=beta&t=UZpbQI0Bo0eUETX5E0baReyZRw_wRUJQ0SGtyqMbi1g"
+                alt="Gabriela G.">
+              <div class="perfiles-info">
+                <p><strong>Gabriela G.</strong></p>
+                <p><strong>Especialidad: </strong> Secure Software Dev | Speaker | Coding & CyberSec Instructor</p>
+                <p>1 publicación esta semana</p>
+              </div>
+              <a class="boton_perfiles" href="https://www.linkedin.com/in/itsgabsgarcia/"><button
+                  class="boton_perfiles">Perfil</button></a>
+            </div>
+            <hr>
+
+            <div class="perfiles">
+              <img src="#" alt="Andres Felipe Mesa">
+              <div class="perfiles-info">
+                <p><strong>Andres Felipe Mesa</strong></p>
+                <p><strong>Especialidad: </strong> Secure Software Dev | Speaker | Coding & CyberSec Instructor</p>
+                <p>2 publicación esta semana</p>
+              </div>
+              <button class="boton_perfiles">Perfil</button>
+            </div>
+          </div>
+
+          <!-- seccion personal -->
+          <div id="seccion_personal" style="display: none;">
+            <div class="perfiles">
+              <img
+                src="https://media.licdn.com/dms/image/D4E03AQF_YkpjXs498A/profile-displayphoto-shrink_200_200/0/1711022864058?e=1722470400&v=beta&t=2GUJUannlL0MF_F-18TfVoaFQmx4rgDUZDirO17hXxM"
+                alt="Brais Moure">
+              <div class="perfiles-info">
+                <p><strong>Brais Moure</strong></p>
+                <p><strong>Especialidad: </strong>Freelance full-stack Dev | iOS & Android Engineer | Divulgador sobre
+                  programación de App</p>
+                <p>5 publicaciones esta semana</p>
+              </div>
+              <a class="boton_perfiles" href="https://www.linkedin.com/in/braismoure/"><button
+                  class="boton_perfiles">Perfil</button></a>
+            </div>
+            <hr>
+            <div class="perfiles">
+              <img
+                src="https://media.licdn.com/dms/image/C4D03AQEvez_2mZ-kTQ/profile-displayphoto-shrink_200_200/0/1646863846444?e=1722470400&v=beta&t=SqS7-1GdCaNYke7RLvoMsAZAuTLxvSrpWM5OYxTMlFY"
+                alt="John Hammond">
+              <div class="perfiles-info">
+                <p><strong>John Hammond</strong></p>
+                <p><strong>Especialidad: </strong>Cybersecurity Researcher | jh.live/email</p>
+                <p>5 publicaciones esta semana</p>
+              </div>
+              <a class="boton_perfiles" href="https://www.linkedin.com/in/johnhammond010/"><button
+                  class="boton_perfiles">Perfil</button></a>
+            </div>
+            <hr>
+            <div class="perfiles">
+              <img
+                src="https://media.licdn.com/dms/image/D4E03AQGjw_Kyux7hQQ/profile-displayphoto-shrink_200_200/0/1696605602098?e=1722470400&v=beta&t=Z4GvmmfgdaWo5nW8cPxRrFS8zoMM9OXqPpMSanoDN84"
+                alt="Laura Marcela Peña López">
+              <div class="perfiles-info">
+                <p><strong>Laura Marcela Peña López</strong></p>
+                <p><strong>Especialidad: </strong>Profesional de Atracción de Talento en Konecta</p>
+                <p>5 publicaciones esta semana</p>
+              </div>
+              <a class="boton_perfiles" href="https://www.linkedin.com/in/laurapenalopez-atracciondetalento/"><button
+                  class="boton_perfiles">Perfil</button></a>
+            </div>
+          </div>
+        </div>
+
+  </div>
+  </section>
+  </main>
+  <script>
+    function showLaboral() {
+      document.getElementById('seccion_laboral').style.display = 'block';
+      document.getElementById('seccion_personal').style.display = 'none';
+    }
+    function showPersonal() {
+      document.getElementById('seccion_laboral').style.display = 'none';
+      document.getElementById('seccion_personal').style.display = 'block';
+    }
+  </script>
+  </div>
 </body>
 
 </html>
